@@ -1,0 +1,233 @@
+Anim chicken.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+10/AO GIAP
+bounds:2,90,1667,1949
+10/MAY PHAI
+bounds:1671,102,660,368
+offsets:1,0,661,368
+rotate:90
+Lv2/images/TRAI
+bounds:1888,1736,303,137
+offsets:1,1,305,139
+rotate:90
+Lv5/PHAI
+bounds:1888,1462,272,141
+offsets:0,0,272,142
+rotate:90
+Lv5/TRAI
+bounds:1888,1189,271,131
+offsets:1,1,272,132
+rotate:90
+lv8/THAT LUNG
+bounds:1671,764,1275,215
+rotate:90
+lv9/Layer 36
+bounds:2,11,77,136
+rotate:90
+
+Anim chicken_2.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+10/CANH TRAI
+bounds:1215,9,368,439
+rotate:90
+10/Ellipse 3
+bounds:2,379,1667,1660
+offsets:0,4,1667,1664
+10/MAY TRAI
+bounds:2,19,655,358
+offsets:0,0,656,358
+CANH TRAI
+bounds:1671,490,368,439
+offsets:1,1,370,441
+Lv2/images/CANH TRAI
+bounds:1671,49,368,439
+offsets:1,1,370,441
+Lv2/images/MO GA
+bounds:1671,1485,314,554
+Lv5/MO GA
+bounds:1671,931,312,552
+MO GA
+bounds:659,63,314,554
+rotate:90
+
+Anim chicken_3.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+10/DUOI
+bounds:1514,102,490,704
+10/THAN
+bounds:2,372,1510,1633
+offsets:0,0,1537,1633
+CHAN TRAI
+bounds:1263,48,246,322
+Lv4/CANH TRAI
+bounds:2,2,368,439
+rotate:90
+Lv4/DUOI
+bounds:884,57,313,377
+rotate:90
+Lv5/CANH TRAI
+bounds:443,2,368,439
+rotate:90
+Lv7/KINH
+bounds:1514,808,1197,451
+rotate:90
+
+Anim chicken_4.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+10/CANH PHAI
+bounds:2,39,221,365
+offsets:0,0,222,365
+CANH PHAI
+bounds:225,39,221,365
+offsets:1,1,224,367
+DUOI
+bounds:1514,487,490,704
+offsets:1,1,492,706
+Lv2/images/CANH PHAI
+bounds:448,39,221,365
+offsets:1,1,224,367
+Lv2/images/DUOI
+bounds:1514,1193,525,846
+offsets:1,1,527,848
+Lv2/images/MAT PHAI
+bounds:1616,213,304,272
+offsets:1,2,307,276
+MAT PHAI
+bounds:1616,213,304,272
+offsets:1,2,307,276
+Lv2/images/PHAI
+bounds:1616,29,277,182
+offsets:1,1,279,184
+Lv3/THAN
+bounds:2,406,1510,1633
+offsets:0,0,1537,1633
+Lv4/CANH PHAI
+bounds:671,39,221,365
+offsets:0,0,222,365
+Lv5/CANH PHAI
+bounds:894,39,221,365
+offsets:0,0,222,365
+lv6/CHAN TRAI_
+bounds:1117,75,251,329
+lv9/CHAN TRAI
+bounds:1370,84,244,320
+
+Anim chicken_5.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+CHAN PHAI
+bounds:1514,730,295,228
+offsets:1,1,297,230
+rotate:90
+Lv2/images/CHAN PHAI
+bounds:1514,730,295,228
+offsets:1,1,297,230
+rotate:90
+Lv2/images/CHAN TRAI
+bounds:2,50,244,319
+offsets:1,1,246,322
+Lv2/images/MAT TRAI
+bounds:1514,1027,277,271
+offsets:1,1,279,273
+MAT TRAI
+bounds:1514,1027,277,271
+offsets:1,1,279,273
+Lv4/THAN
+bounds:2,371,1510,1633
+offsets:0,0,1537,1633
+Lv5/DUOI
+bounds:1514,1300,490,704
+lv6/CHAN PHAI
+bounds:248,134,304,235
+lv9/CHAN PHAI
+bounds:554,141,295,228
+
+Anim chicken_6.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv5/THAN
+bounds:2,2,1510,1633
+offsets:0,0,1537,1633
+
+Anim chicken_7.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+THAN
+bounds:2,2,1510,1633
+offsets:1,1,1539,1635
+
+Anim chicken_8.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+lv9/Layer 35
+bounds:2,2,1510,1633
+offsets:0,0,1537,1633
+
+Anim chicken_9.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv2/images/THAN
+bounds:2,2,1509,1633
+offsets:1,1,1539,1635
+
+Anim chicken_10.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv3/MAO GA
+bounds:2,2,1551,1102
+offsets:1,0,1552,1102
+lv6/MU
+bounds:2,1106,1780,910
+
+Anim chicken_11.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv2/images/MAO GA
+bounds:2,68,996,659
+offsets:1,1,998,661
+Lv7/TOC
+bounds:2,729,1364,1298
+MAO GA
+bounds:1368,1031,996,659
+offsets:1,1,998,661
+rotate:90
+lv6/BIT MAT
+bounds:1000,116,846,611
+
+Anim chicken_12.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv5/GUITAR
+bounds:2,2,1566,826
+lv9/MU
+bounds:2,830,1478,931
+
+Anim chicken_13.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+Lv5/TOC
+bounds:1229,860,1164,795
+offsets:0,0,1164,818
+rotate:90
+lv8/AO CHOANG
+bounds:2,14,891,837
+lv8/MU
+bounds:2,853,1225,1171
+offsets:1,0,1226,1171

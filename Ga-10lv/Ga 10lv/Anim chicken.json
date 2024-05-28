@@ -1,0 +1,1263 @@
+{
+"skeleton": {
+	"hash": "mrMosvw7apQ",
+	"spine": "4.2.20",
+	"x": -900.89,
+	"y": -32.24,
+	"width": 1711,
+	"height": 2364.4,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root", "x": 8.42, "y": 16.83 },
+	{ "name": "bone", "parent": "root", "x": 0.15, "y": 394.09 },
+	{ "name": "THAN", "parent": "bone", "length": 1262.42, "rotation": 89.75, "x": 4.35, "y": 106.62 },
+	{ "name": "CANH PHAI", "parent": "THAN", "length": 236.22, "rotation": -142.47, "x": 440.24, "y": -584.37 },
+	{ "name": "CANH TRAI", "parent": "THAN", "length": 345.16, "rotation": 135.25, "x": 348.77, "y": 427.97 },
+	{ "name": "chan", "parent": "root", "length": 188.3, "rotation": -90, "y": 397.99 },
+	{ "name": "CHAN TRAI", "parent": "chan", "length": 254.44, "rotation": 24.93, "x": 159.15, "y": -234.59 },
+	{ "name": "CHAN PHAI", "parent": "chan", "length": 174.67, "rotation": 11.43, "x": 191.93, "y": 151.54 },
+	{ "name": "DUOI", "parent": "THAN", "length": 422.44, "rotation": 21.16, "x": 318.55, "y": 508.66 },
+	{ "name": "MAO GA", "parent": "THAN", "length": 280.12, "rotation": 17.06, "x": 1267.09, "y": 57.81 },
+	{ "name": "MO GA", "parent": "THAN", "length": 178.24, "rotation": -91.59, "x": 475.43, "y": -95.54 },
+	{ "name": "MAT TRAI", "parent": "THAN", "x": 681.61, "y": 64.37 },
+	{ "name": "MAT PHAI", "parent": "THAN", "x": 742.59, "y": -295.49 },
+	{ "name": "MO GA2", "parent": "MO GA", "length": 122.25, "rotation": -81.24, "x": 133.39, "y": -181.56 },
+	{ "name": "MO GA3", "parent": "MO GA", "length": 128.67, "rotation": -1.79, "x": 100.96, "y": 112.65 },
+	{ "name": "MO GA4", "parent": "MO GA", "length": 120.27, "rotation": 0.88, "x": 100.04, "y": -111.7 },
+	{ "name": "PHAI", "parent": "THAN", "length": 190.39, "rotation": -67.27, "x": 799.27, "y": -216.24 },
+	{ "name": "TRAI", "parent": "THAN", "length": 235.97, "rotation": 72.29, "x": 774.11, "y": -16.16 },
+	{ "name": "GUITAR", "parent": "THAN", "length": 810.99, "rotation": -78.59, "x": -176.19, "y": 316.18 },
+	{ "name": "PHAI2", "parent": "THAN", "length": 155.41, "rotation": -82.02, "x": 630.29, "y": -242.16 },
+	{ "name": "TRAI2", "parent": "THAN", "length": 147, "rotation": 88.37, "x": 576.66, "y": 7.7 },
+	{ "name": "BIT MAT", "parent": "THAN", "length": 334.13, "rotation": -71.17, "x": 577.3, "y": 388.38 },
+	{ "name": "AO CHOANG", "parent": "THAN", "length": 497.96, "rotation": 158.2, "x": 410.2, "y": 407.41 },
+	{ "name": "THAT LUNG", "parent": "THAN", "length": 528.29, "rotation": -92.04, "x": -23.26, "y": 203.39 },
+	{ "name": "Layer 36", "parent": "THAN", "length": 79.92, "rotation": -17.96, "x": 630, "y": -474.33 },
+	{ "name": "AO GIAP", "parent": "THAN", "length": 655.43, "rotation": -91.74, "x": 242.25, "y": 230.97 },
+	{ "name": "Ellipse 3", "parent": "AO GIAP", "length": 459.79, "rotation": -90.04, "x": 221.74, "y": 842.49 },
+	{ "name": "MAY TRAI", "parent": "AO GIAP", "length": 239.97, "rotation": -177.74, "x": -477.29, "y": 67.37 },
+	{ "name": "MAY PHAI", "parent": "AO GIAP", "length": 261.53, "rotation": 4.92, "x": 931.12, "y": 170.44 },
+	{ "name": "KINH", "parent": "MAO GA", "length": 427.4, "rotation": -98.41, "x": -493.31, "y": 185.07 }
+],
+"slots": [
+	{ "name": "MAY PHAI", "bone": "MAY PHAI", "attachment": "MAY PHAI" },
+	{ "name": "Ellipse 3", "bone": "Ellipse 3", "attachment": "Ellipse 3" },
+	{ "name": "CANH PHAI", "bone": "CANH PHAI", "attachment": "CANH PHAI" },
+	{ "name": "CHAN PHAI", "bone": "CHAN PHAI", "attachment": "CHAN PHAI" },
+	{ "name": "CHAN TRAI", "bone": "CHAN TRAI", "attachment": "CHAN TRAI" },
+	{ "name": "DUOI", "bone": "DUOI", "attachment": "DUOI" },
+	{ "name": "AO CHOANG", "bone": "AO CHOANG", "attachment": "AO CHOANG" },
+	{ "name": "MAY TRAI", "bone": "MAY TRAI", "attachment": "MAY TRAI" },
+	{ "name": "THAN", "bone": "THAN", "attachment": "THAN" },
+	{ "name": "PHAI2", "bone": "root" },
+	{ "name": "CANH TRAI", "bone": "CANH TRAI", "attachment": "CANH TRAI" },
+	{ "name": "MAO GA", "bone": "MAO GA", "attachment": "MAO GA" },
+	{ "name": "MAT TRAI", "bone": "MAT TRAI", "attachment": "MAT TRAI" },
+	{ "name": "MAT PHAI", "bone": "MAT PHAI", "attachment": "MAT PHAI" },
+	{ "name": "PHAI", "bone": "PHAI2", "attachment": "PHAI" },
+	{ "name": "TRAI", "bone": "TRAI", "attachment": "TRAI" },
+	{ "name": "PHAI3", "bone": "PHAI", "attachment": "PHAI" },
+	{ "name": "GUITAR", "bone": "GUITAR", "attachment": "GUITAR" },
+	{ "name": "TRAI2", "bone": "TRAI2", "attachment": "TRAI" },
+	{ "name": "BIT MAT", "bone": "BIT MAT", "attachment": "BIT MAT" },
+	{ "name": "MO GA", "bone": "MO GA4", "attachment": "MO GA" },
+	{ "name": "THAT LUNG", "bone": "THAT LUNG", "attachment": "THAT LUNG" },
+	{ "name": "Layer 36", "bone": "Layer 36", "attachment": "Layer 36" },
+	{ "name": "AO GIAP", "bone": "AO GIAP", "attachment": "AO GIAP" },
+	{ "name": "KINH", "bone": "KINH", "attachment": "KINH" }
+],
+"skins": [
+	{
+		"name": "LV1",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": {
+					"type": "mesh",
+					"uvs": [ 0.5425, 0.11474, 0.77125, 0.35222, 1, 0.5897, 1, 0.62153, 0.8165, 1, 0.70494, 1, 0.35518, 0.92062, 0.00541, 0.84123, 0, 0.72885, 0.15193, 0.60688, 0.27371, 0.54702, 0, 0.01544, 0.04107, 0, 0.18916, 0.02986, 0.64352, 0.43874, 0.48238, 0.70605, 0.32978, 0.22916, 0.77318, 0.72555, 0.51055, 0.55069, 0.27175, 0.10288 ],
+					"triangles": [ 0, 19, 13, 16, 19, 0, 14, 0, 1, 16, 0, 14, 19, 12, 13, 18, 10, 16, 19, 16, 12, 16, 11, 12, 10, 11, 16, 14, 18, 16, 14, 1, 2, 17, 14, 2, 15, 10, 18, 3, 17, 2, 18, 14, 17, 15, 18, 17, 6, 7, 8, 15, 9, 10, 6, 9, 15, 6, 8, 9, 5, 15, 17, 6, 15, 5, 4, 17, 3, 5, 17, 4 ],
+					"vertices": [ 1, 6, 32.12, 58.86, 1, 1, 6, 124.52, 80.71, 1, 1, 6, 216.91, 102.56, 1, 1, 6, 226.34, 98.55, 1, 1, 6, 320.82, 9.31, 1, 1, 6, 310.08, -15.94, 1, 1, 6, 252.87, -85.12, 1, 1, 6, 195.67, -154.29, 1, 1, 6, 161.85, -141.35, 1, 1, 6, 140.34, -91.58, 1, 1, 6, 134.33, -56.47, 1, 1, 6, -49.54, -51.43, 1, 1, 6, -50.16, -40.18, 1, 1, 6, -27.05, -10.43, 1, 1, 6, 137.86, 40.89, 1, 1, 6, 201.54, -29.28, 1, 1, 6, 45.54, -3.71, 1, 1, 6, 235.32, 34.1, 1, 1, 6, 158.22, -3.32, 1, 1, 6, 2.54, -0.93, 1 ],
+					"hull": 14,
+					"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 0 ],
+					"width": 246,
+					"height": 322
+				}
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"MAO GA": {
+				"MAO GA": { "x": 85.24, "y": -7.33, "rotation": -106.81, "width": 998, "height": 661 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": {
+					"type": "mesh",
+					"uvs": [ 1, 0.19431, 1, 0.38862, 1, 0.64908, 1, 0.8243, 1, 1, 0, 1, 0, 0.84462, 0, 0.67222, 0, 0.50942, 0, 0.19026, 0, 0, 1, 0, 0.7969, 0.1497, 0.75096, 0.53829 ],
+					"triangles": [ 6, 7, 13, 6, 13, 3, 4, 5, 6, 4, 6, 3, 13, 8, 9, 1, 13, 12, 13, 1, 2, 7, 8, 13, 13, 2, 3, 12, 10, 11, 9, 10, 12, 12, 11, 0, 12, 0, 1, 12, 13, 9 ],
+					"vertices": [ 3, 10, 272.07, 80.72, 0.17744, 14, 172.03, -26.58, 0.8131, 15, 174.96, 189.76, 0.00946, 3, 10, 275.55, -26.87, 0.48888, 14, 178.85, -134.01, 0.08765, 15, 176.78, 82.13, 0.42347, 2, 15, 179.23, -62.14, 0.6751, 13, 12.01, 146.69, 0.3249, 2, 15, 180.87, -159.2, 0.17789, 13, 108.38, 135.01, 0.82211, 2, 15, 182.52, -256.52, 0.02946, 13, 205.01, 123.29, 0.97054, 2, 15, -131.43, -261.85, 0.01489, 13, 167.22, -188.43, 0.98511, 3, 10, -30.15, -289.49, 9.3E-4, 15, -132.89, -175.78, 0.08303, 13, 81.77, -178.07, 0.91604, 3, 10, -33.23, -194.03, 0.07356, 15, -134.51, -80.28, 0.33884, 13, -13.04, -166.58, 0.5876, 3, 10, -36.13, -103.89, 0.44133, 15, -136.04, 9.89, 0.39982, 13, -102.58, -155.72, 0.15885, 2, 10, -41.83, 72.84, 0.6518, 14, -141.48, -44.24, 0.3482, 2, 10, -45.23, 178.19, 0.25818, 14, -148.16, 60.95, 0.74182, 1, 14, 165.21, 80.85, 1, 3, 10, 207.54, 103.36, 0.02163, 14, 106.82, -5.96, 0.97834, 15, 110.78, 213.39, 3.0E-5, 2, 15, 100, -2.1, 0.99386, 13, -58.33, 76.44, 0.00614 ],
+					"hull": 12,
+					"edges": [ 8, 10, 20, 22, 10, 12, 8, 6, 6, 4, 12, 14, 14, 16, 4, 2, 2, 0, 0, 22, 16, 18, 18, 20 ],
+					"width": 314,
+					"height": 554
+				}
+			},
+			"THAN": {
+				"THAN": { "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1539, "height": 1635 }
+			}
+		}
+	},
+	{
+		"name": "LV2",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "name": "Lv2/images/CANH PHAI", "x": 124.53, "y": 37.59, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "name": "Lv2/images/CANH TRAI", "x": 186.9, "y": -13.51, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "name": "Lv2/images/CHAN PHAI", "x": 85.32, "y": 18.33, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "name": "Lv2/images/CHAN TRAI", "x": 139.5, "y": -8.3, "rotation": 65.07, "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "name": "Lv2/images/DUOI", "x": 247.06, "y": 71.81, "rotation": -110.9, "width": 527, "height": 848 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "Lv2/images/MAO GA", "x": 94.23, "y": -8.83, "rotation": -106.81, "width": 998, "height": 661 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "name": "Lv2/images/MAT PHAI", "x": -11.86, "y": 15.65, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "name": "Lv2/images/MAT TRAI", "x": -5.26, "y": -0.17, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": {
+					"name": "Lv2/images/MO GA",
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 183.86, -262.74, -130.1, -268.07, -139.48, 285.85, 174.47, 291.18 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 314,
+					"height": 554
+				}
+			},
+			"PHAI3": {
+				"PHAI": { "name": "Lv2/images/PHAI", "x": 86.07, "y": 44.62, "rotation": -22.48, "width": 279, "height": 184 }
+			},
+			"THAN": {
+				"THAN": { "name": "Lv2/images/THAN", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1539, "height": 1635 }
+			},
+			"TRAI": {
+				"TRAI": { "name": "Lv2/images/TRAI", "x": 117.53, "y": -21.69, "rotation": -162.03, "width": 305, "height": 139 }
+			}
+		}
+	},
+	{
+		"name": "LV3",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "Lv3/MAO GA", "x": -127.02, "y": 109.17, "rotation": -106.81, "width": 1552, "height": 1102 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "name": "Lv3/THAN", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1537, "height": 1633 }
+			}
+		}
+	},
+	{
+		"name": "LV4",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "name": "Lv4/CANH PHAI", "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 222, "height": 365 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "name": "Lv4/CANH TRAI", "x": 172.54, "y": -20.36, "rotation": 135, "width": 368, "height": 439 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "name": "Lv4/DUOI", "x": 204.24, "y": 179.51, "rotation": -110.9, "width": 313, "height": 377 }
+			},
+			"MAO GA": {
+				"MAO GA": { "x": 85.24, "y": -7.33, "rotation": -106.81, "width": 998, "height": 661 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "name": "Lv4/THAN", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1537, "height": 1633 }
+			}
+		}
+	},
+	{
+		"name": "LV5",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "name": "Lv5/CANH PHAI", "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 222, "height": 365 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "name": "Lv5/CANH TRAI", "x": 172.54, "y": -20.36, "rotation": 135, "width": 368, "height": 439 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "name": "Lv5/DUOI", "x": 200.06, "y": 131.45, "rotation": -110.9, "width": 490, "height": 704 }
+			},
+			"GUITAR": {
+				"GUITAR": { "name": "Lv5/GUITAR", "x": 502.63, "y": 222.1, "rotation": -11.15, "width": 1566, "height": 826 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "Lv5/TOC", "x": 5.97, "y": 110.63, "rotation": -106.81, "width": 1164, "height": 818 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "name": "Lv5/MO GA", "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 312, "height": 552 }
+			},
+			"PHAI": {
+				"PHAI": { "name": "Lv5/PHAI", "x": 67.98, "y": -42.57, "rotation": -7.81, "width": 272, "height": 142 }
+			},
+			"THAN": {
+				"THAN": { "name": "Lv5/THAN", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1537, "height": 1633 }
+			},
+			"TRAI2": {
+				"TRAI": { "name": "Lv5/TRAI", "x": 58.59, "y": 35.85, "rotation": -178.11, "width": 272, "height": 132 }
+			}
+		}
+	},
+	{
+		"name": "LV6",
+		"attachments": {
+			"BIT MAT": {
+				"BIT MAT": {
+					"name": "lv6/BIT MAT",
+					"x": 214.59,
+					"y": 18.32,
+					"scaleX": 0.9453,
+					"scaleY": 0.9466,
+					"rotation": -18.58,
+					"width": 846,
+					"height": 611
+				}
+			},
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "name": "lv6/CHAN PHAI", "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 304, "height": 235 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "name": "lv6/CHAN TRAI_", "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 251, "height": 329 }
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "lv6/MU", "x": 29.61, "y": 69.45, "rotation": -106.81, "width": 1780, "height": 910 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "x": 514.18, "y": 60.6, "rotation": -89.75, "width": 1539, "height": 1635 }
+			}
+		}
+	},
+	{
+		"name": "LV7",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"KINH": {
+				"KINH": { "name": "Lv7/KINH", "x": 102.92, "y": -13.02, "rotation": -8.4, "width": 1197, "height": 451 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "Lv7/TOC", "x": -93.29, "y": 42.92, "rotation": -106.81, "width": 1364, "height": 1298 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1539, "height": 1635 }
+			}
+		}
+	},
+	{
+		"name": "LV8",
+		"attachments": {
+			"AO CHOANG": {
+				"AO CHOANG": { "name": "lv8/AO CHOANG", "x": 310.66, "y": -64.49, "rotation": 112.06, "width": 891, "height": 837 }
+			},
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "name": "lv6/CHAN PHAI", "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 304, "height": 235 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "name": "lv6/CHAN TRAI_", "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 251, "height": 329 }
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "lv8/MU", "x": -225.4, "y": 0.9, "rotation": -106.81, "width": 1226, "height": 1171 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "x": 514.18, "y": 60.6, "rotation": -89.75, "width": 1539, "height": 1635 }
+			},
+			"THAT LUNG": {
+				"THAT LUNG": { "name": "lv8/THAT LUNG", "x": 234.57, "y": -6.19, "rotation": 2.29, "width": 1275, "height": 215 }
+			}
+		}
+	},
+	{
+		"name": "LV9",
+		"attachments": {
+			"CANH PHAI": {
+				"CANH PHAI": { "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 224, "height": 367 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "x": 172.54, "y": -20.36, "rotation": 135, "width": 370, "height": 441 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "name": "lv9/CHAN PHAI", "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 295, "height": 228 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "name": "lv9/CHAN TRAI", "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 244, "height": 320 }
+			},
+			"DUOI": {
+				"DUOI": { "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 492, "height": 706 }
+			},
+			"Layer 36": {
+				"Layer 36": { "name": "lv9/Layer 36", "x": 47.3, "y": 2.34, "rotation": -71.78, "width": 77, "height": 136 }
+			},
+			"MAO GA": {
+				"MAO GA": { "name": "lv9/MU", "x": -42.1, "y": 20.69, "rotation": -106.81, "width": 1478, "height": 931 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "name": "lv9/Layer 35", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1537, "height": 1633 }
+			}
+		}
+	},
+	{
+		"name": "LV10",
+		"attachments": {
+			"AO GIAP": {
+				"AO GIAP": { "name": "10/AO GIAP", "x": 188.95, "y": 550.66, "rotation": 1.99, "width": 1667, "height": 1949 }
+			},
+			"CANH PHAI": {
+				"CANH PHAI": { "name": "10/CANH PHAI", "x": 120.82, "y": 32.29, "rotation": 52.72, "width": 222, "height": 365 }
+			},
+			"CANH TRAI": {
+				"CANH TRAI": { "name": "10/CANH TRAI", "x": 172.54, "y": -20.36, "rotation": 135, "width": 368, "height": 439 }
+			},
+			"CHAN PHAI": {
+				"CHAN PHAI": { "x": 102.71, "y": 9.49, "rotation": 78.57, "width": 297, "height": 230 }
+			},
+			"CHAN TRAI": {
+				"CHAN TRAI": { "type": "linkedmesh", "skin": "LV1", "parent": "CHAN TRAI", "width": 246, "height": 322 }
+			},
+			"DUOI": {
+				"DUOI": { "name": "10/DUOI", "x": 241.09, "y": 79.8, "rotation": -110.9, "width": 490, "height": 704 }
+			},
+			"Ellipse 3": {
+				"Ellipse 3": { "name": "10/Ellipse 3", "x": 159.22, "y": -40.19, "rotation": 92.03, "width": 1667, "height": 1664 }
+			},
+			"MAO GA": {
+				"MAO GA": { "x": 85.24, "y": -7.33, "rotation": -106.81, "width": 998, "height": 661 }
+			},
+			"MAT PHAI": {
+				"MAT PHAI": { "x": -7.75, "y": 7.07, "rotation": -89.75, "width": 307, "height": 276 }
+			},
+			"MAT TRAI": {
+				"MAT TRAI": { "x": 0.18, "y": -2.03, "rotation": -89.75, "width": 279, "height": 273 }
+			},
+			"MAY PHAI": {
+				"MAY PHAI": { "name": "10/MAY PHAI", "x": -9.34, "y": -2.49, "rotation": -2.92, "width": 661, "height": 368 }
+			},
+			"MAY TRAI": {
+				"MAY TRAI": { "name": "10/MAY TRAI", "x": 54.69, "y": 17.2, "rotation": 179.73, "width": 656, "height": 358 }
+			},
+			"MO GA": {
+				"MO GA": { "type": "linkedmesh", "skin": "LV1", "parent": "MO GA", "width": 314, "height": 554 }
+			},
+			"THAN": {
+				"THAN": { "name": "10/THAN", "x": 515.79, "y": 60.6, "rotation": -89.75, "width": 1537, "height": 1633 }
+			}
+		}
+	}
+],
+"animations": {
+	"Jump": {
+		"bones": {
+			"THAN": {
+				"rotate": [
+					{
+						"time": 1.3,
+						"curve": [ 1.333, 0, 1.405, -2.71 ]
+					},
+					{
+						"time": 1.4333,
+						"value": -2.71,
+						"curve": [ 1.448, -2.71, 1.464, 0 ]
+					},
+					{ "time": 1.5333 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.056, 0, 0.111, 0, 0.056, -23.33, 0.111, -70 ]
+					},
+					{
+						"time": 0.1667,
+						"y": -70,
+						"curve": [ 0.222, 0, 0.278, 0, 0.222, -70, 0.278, 0 ]
+					},
+					{ "time": 0.3333, "curve": "stepped" },
+					{
+						"time": 1.3,
+						"curve": [ 1.333, 0, 1.405, 0, 1.333, 0, 1.405, -70 ]
+					},
+					{
+						"time": 1.4333,
+						"y": -70,
+						"curve": [ 1.448, 0, 1.529, 0, 1.448, -70, 1.529, -17.5 ]
+					},
+					{ "time": 1.5333 }
+				]
+			},
+			"MAO GA": {
+				"translate": [
+					{
+						"curve": [ 0.058, 0, 0.109, -19.99, 0.058, 0, 0.109, -0.7 ]
+					},
+					{ "time": 0.1667, "x": -19.99, "y": -0.7 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.058, 0, 0.109, 0.15, 0.058, 0, 0.109, 0 ]
+					},
+					{ "time": 0.1667, "x": 0.15 }
+				]
+			},
+			"CANH TRAI": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "value": -1.67 },
+					{
+						"time": 0.3333,
+						"value": -1.36,
+						"curve": [ 0.367, -19.01, 0.4, -54.32 ]
+					},
+					{
+						"time": 0.4333,
+						"value": -54.32,
+						"curve": [ 0.467, -54.32, 0.5, -1.36 ]
+					},
+					{
+						"time": 0.5333,
+						"value": -1.36,
+						"curve": [ 0.567, -1.36, 0.6, -54.32 ]
+					},
+					{
+						"time": 0.6333,
+						"value": -54.32,
+						"curve": [ 0.667, -54.32, 0.7, -1.36 ]
+					},
+					{
+						"time": 0.7333,
+						"value": -1.36,
+						"curve": [ 0.767, -1.36, 0.8, -54.32 ]
+					},
+					{
+						"time": 0.8333,
+						"value": -54.32,
+						"curve": [ 0.867, -54.32, 0.9, -1.36 ]
+					},
+					{
+						"time": 0.9333,
+						"value": -1.36,
+						"curve": [ 0.967, -1.36, 1, -54.32 ]
+					},
+					{
+						"time": 1.0333,
+						"value": -54.32,
+						"curve": [ 1.067, -54.32, 1.1, -1.36 ]
+					},
+					{
+						"time": 1.1333,
+						"value": -1.36,
+						"curve": [ 1.167, -1.36, 1.2, -54.32 ]
+					},
+					{
+						"time": 1.2333,
+						"value": -54.32,
+						"curve": [ 1.267, -54.32, 1.3, -1.36 ]
+					},
+					{ "time": 1.3333, "value": -1.36 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.2, "x": 9.56 }
+				]
+			},
+			"MAT PHAI": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": -37.56 }
+				],
+				"translate": [
+					{ "time": 1.3333 },
+					{ "time": 1.4333, "x": -29.96, "y": -1.55 },
+					{ "time": 1.5333 }
+				]
+			},
+			"MAT TRAI": {
+				"rotate": [
+					{
+						"curve": [ 0.058, 0, 0.109, -75.74 ]
+					},
+					{ "time": 0.1667, "value": -75.74 }
+				]
+			},
+			"DUOI": {
+				"rotate": [
+					{},
+					{
+						"time": 0.1667,
+						"value": -5.85,
+						"curve": [ 0.224, -5.85, 0.281, 10.83 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 10.91,
+						"curve": [ 0.97, 11.72, 1, -5.85 ]
+					},
+					{ "time": 1.3333, "value": -5.85 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -29.98, "y": -1.05 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.058, 0, 0.109, 5.87, 0.058, 0, 0.109, 0.54 ]
+					},
+					{ "time": 0.1667, "x": 5.87, "y": 0.54 }
+				]
+			},
+			"CANH PHAI": {
+				"rotate": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.367, 13.66, 0.4, 40.97 ]
+					},
+					{
+						"time": 0.4333,
+						"value": 40.97,
+						"curve": [ 0.467, 40.97, 0.5, -13.66 ]
+					},
+					{
+						"time": 0.5333,
+						"curve": [ 0.567, 13.66, 0.6, 40.97 ]
+					},
+					{
+						"time": 0.6333,
+						"value": 40.97,
+						"curve": [ 0.667, 40.97, 0.7, -13.66 ]
+					},
+					{
+						"time": 0.7333,
+						"curve": [ 0.767, 13.66, 0.8, 40.97 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 40.97,
+						"curve": [ 0.867, 40.97, 0.9, -13.66 ]
+					},
+					{
+						"time": 0.9333,
+						"curve": [ 0.967, 13.66, 1, 40.97 ]
+					},
+					{
+						"time": 1.0333,
+						"value": 40.97,
+						"curve": [ 1.067, 40.97, 1.1, -13.66 ]
+					},
+					{
+						"time": 1.1333,
+						"curve": [ 1.167, 13.66, 1.2, 40.97 ]
+					},
+					{
+						"time": 1.2333,
+						"value": 40.97,
+						"curve": [ 1.267, 40.97, 1.3, -13.66 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2, "x": -29.98, "y": -1.01 },
+					{
+						"time": 0.3333,
+						"x": -24.39,
+						"y": -0.82,
+						"curve": [ 0.367, 17.67, 0.4, 101.79, 0.367, 75.04, 0.4, 226.78 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 101.79,
+						"y": 226.78,
+						"curve": [ 0.467, 101.79, 0.5, -66.45, 0.467, 226.78, 0.5, -76.69 ]
+					},
+					{
+						"time": 0.5333,
+						"x": -24.39,
+						"y": -0.82,
+						"curve": [ 0.567, 17.67, 0.6, 101.79, 0.567, 75.04, 0.6, 226.78 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 101.79,
+						"y": 226.78,
+						"curve": [ 0.667, 101.79, 0.7, -66.45, 0.667, 226.78, 0.7, -76.69 ]
+					},
+					{
+						"time": 0.7333,
+						"x": -24.39,
+						"y": -0.82,
+						"curve": [ 0.767, 17.67, 0.8, 101.79, 0.767, 75.04, 0.8, 226.78 ]
+					},
+					{
+						"time": 0.8333,
+						"x": 101.79,
+						"y": 226.78,
+						"curve": [ 0.867, 101.79, 0.9, -66.45, 0.867, 226.78, 0.9, -76.69 ]
+					},
+					{
+						"time": 0.9333,
+						"x": -24.39,
+						"y": -0.82,
+						"curve": [ 0.967, 17.67, 1, 101.79, 0.967, 75.04, 1, 226.78 ]
+					},
+					{
+						"time": 1.0333,
+						"x": 101.79,
+						"y": 226.78,
+						"curve": [ 1.067, 101.79, 1.1, -66.45, 1.067, 226.78, 1.1, -76.69 ]
+					},
+					{
+						"time": 1.1333,
+						"x": -24.39,
+						"y": -0.82,
+						"curve": [ 1.167, 17.67, 1.2, 101.79, 1.167, 75.04, 1.2, 226.78 ]
+					},
+					{
+						"time": 1.2333,
+						"x": 101.79,
+						"y": 226.78,
+						"curve": [ 1.267, 101.79, 1.3, -66.45, 1.267, 226.78, 1.3, -76.69 ]
+					},
+					{ "time": 1.3333, "x": -24.39, "y": -0.82 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.367, 1.179, 0.4, 1.537, 0.367, 1.106, 0.4, 1.318 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 1.537,
+						"y": 1.318,
+						"curve": [ 0.467, 1.537, 0.5, 0.821, 0.467, 1.318, 0.5, 0.894 ]
+					},
+					{
+						"time": 0.5333,
+						"curve": [ 0.567, 1.179, 0.6, 1.537, 0.567, 1.106, 0.6, 1.318 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 1.537,
+						"y": 1.318,
+						"curve": [ 0.667, 1.537, 0.7, 0.821, 0.667, 1.318, 0.7, 0.894 ]
+					},
+					{
+						"time": 0.7333,
+						"curve": [ 0.767, 1.179, 0.8, 1.537, 0.767, 1.106, 0.8, 1.318 ]
+					},
+					{
+						"time": 0.8333,
+						"x": 1.537,
+						"y": 1.318,
+						"curve": [ 0.867, 1.537, 0.9, 0.821, 0.867, 1.318, 0.9, 0.894 ]
+					},
+					{
+						"time": 0.9333,
+						"curve": [ 0.967, 1.179, 1, 1.537, 0.967, 1.106, 1, 1.318 ]
+					},
+					{
+						"time": 1.0333,
+						"x": 1.537,
+						"y": 1.318,
+						"curve": [ 1.067, 1.537, 1.1, 0.821, 1.067, 1.318, 1.1, 0.894 ]
+					},
+					{
+						"time": 1.1333,
+						"curve": [ 1.167, 1.179, 1.2, 1.537, 1.167, 1.106, 1.2, 1.318 ]
+					},
+					{
+						"time": 1.2333,
+						"x": 1.537,
+						"y": 1.318,
+						"curve": [ 1.267, 1.537, 1.3, 0.821, 1.267, 1.318, 1.3, 0.894 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.2, "x": -5.47 }
+				]
+			},
+			"chan": {
+				"rotate": [
+					{
+						"time": 0.4333,
+						"curve": [ 0.678, 0, 0.922, 10.1 ]
+					},
+					{
+						"time": 1.1667,
+						"value": 10.1,
+						"curve": [ 1.222, 10.1, 1.278, 0 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.367, -1.39, 0.4, -4.16, 0.367, 34.21, 0.4, 102.64 ]
+					},
+					{
+						"time": 0.4333,
+						"x": -4.16,
+						"y": 102.64,
+						"curve": [ 0.678, -4.16, 0.922, 78.34, 0.678, 102.64, 0.922, 92.32 ]
+					},
+					{
+						"time": 1.1667,
+						"x": 109.1,
+						"y": 88.48,
+						"curve": [ 1.222, 116.09, 1.278, 2.31, 1.222, 87.6, 1.278, -57.02 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"MO GA3": {
+				"rotate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, -5.16 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -5.16,
+						"curve": [ 0.611, -5.16, 1, 0 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 0.97, 0.222, 0, 0.278, -29.98 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.97,
+						"y": -29.98,
+						"curve": [ 0.611, 0.97, 1, 0, 0.611, -29.98, 1, 0 ]
+					},
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"attachments": {
+			"LV1": {
+				"CHAN TRAI": {
+					"CHAN TRAI": {
+						"deform": [
+							{
+								"offset": 10,
+								"vertices": [ 0.57774, 0.94244 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"Move": {
+		"bones": {
+			"THAN": {
+				"rotate": [
+					{
+						"curve": [ 0.122, 0, 0.244, -1.75 ]
+					},
+					{
+						"time": 0.3667,
+						"value": -1.75,
+						"curve": [ 0.533, -1.75, 0.7, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.122, 0, 0.244, 23.81, 0.122, 0, 0.244, -40 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 23.81,
+						"y": -40,
+						"curve": [ 0.396, 23.81, 0.749, 0, 0.396, -40, 0.749, 0 ]
+					},
+					{ "time": 0.8667 }
+				]
+			},
+			"MAO GA": {
+				"translate": [
+					{
+						"curve": [ 0.1, 0, 0.2, -19.99, 0.1, 0, 0.2, -0.7 ]
+					},
+					{ "time": 0.3, "x": -19.99, "y": -0.7 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, 0.51, 0.1, 0, 0.2, 0 ]
+					},
+					{ "time": 0.3, "x": 0.51 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CANH TRAI": {
+				"rotate": [
+					{},
+					{ "time": 0.3667, "value": -1.67 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.3667, "x": 9.56 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MAT PHAI": {
+				"rotate": [
+					{},
+					{ "time": 0.3, "value": -37.56 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MAT TRAI": {
+				"rotate": [
+					{
+						"curve": [ 0.1, 0, 0.2, -75.74 ]
+					},
+					{ "time": 0.3, "value": -75.74 },
+					{ "time": 0.8667 }
+				]
+			},
+			"DUOI": {
+				"rotate": [
+					{},
+					{
+						"time": 0.3,
+						"value": -5.85,
+						"curve": [ 0.489, -5.85, 0.678, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{},
+					{
+						"time": 0.3,
+						"x": -29.98,
+						"y": -1.05,
+						"curve": [ 0.489, -29.98, 0.678, 0, 0.489, -1.05, 0.678, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, 5.87, 0.1, 0, 0.2, 0.54 ]
+					},
+					{ "time": 0.3, "x": 5.87, "y": 0.54 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CHAN TRAI": {
+				"rotate": [
+					{
+						"curve": [ 0.033, 0, 0.067, 17.41 ]
+					},
+					{
+						"time": 0.1,
+						"value": 17.41,
+						"curve": [ 0.134, 17.41, 0.167, 16.92 ]
+					},
+					{
+						"time": 0.2,
+						"value": 15.13,
+						"curve": [ 0.234, 13.35, 0.267, -4.05 ]
+					},
+					{
+						"time": 0.3,
+						"value": -4.54,
+						"curve": [ 0.356, -5.36, 0.411, -12.82 ]
+					},
+					{ "time": 0.4667, "value": -12.82 },
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.032, 0, 0.098, -65.88, 0.034, 0, 0.098, 56.85 ]
+					},
+					{
+						"time": 0.1667,
+						"x": -74.86,
+						"y": 153.23,
+						"curve": [ 0.218, -81.43, 0.272, -29.4, 0.214, 218.29, 0.265, 314.65 ]
+					},
+					{
+						"time": 0.3,
+						"x": -24.58,
+						"y": 305.99,
+						"curve": [ 0.381, -10.75, 0.472, 14.88, 0.381, 285.9, 0.472, 244.58 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 15.18,
+						"y": 181.55,
+						"curve": [ 0.7, 15.6, 0.809, 0, 0.6, 159.49, 0.809, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"scale": [
+					{ "time": 0.2667 },
+					{ "time": 0.5, "x": 0.83, "y": 0.931 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CHAN PHAI": {
+				"rotate": [
+					{
+						"curve": [ 0.089, 0, 0.178, -21.83 ]
+					},
+					{ "time": 0.2667, "value": -30.19 },
+					{ "time": 0.4667, "value": -49.01 },
+					{
+						"time": 0.7,
+						"value": 9.13,
+						"curve": [ 0.722, 14.39, 0.744, 24.92 ]
+					},
+					{
+						"time": 0.7667,
+						"value": 24.92,
+						"curve": [ 0.8, 24.92, 0.833, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.089, 0, 0.178, -28.44, 0.089, 0, 0.178, -239.55 ]
+					},
+					{ "time": 0.2667, "x": -15.69, "y": -212.1 },
+					{ "time": 0.4667, "x": -40.46, "y": -291.4 },
+					{ "time": 0.7, "x": -66.86, "y": -41.42 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CANH PHAI": {
+				"translate": [
+					{},
+					{ "time": 0.3667, "x": -29.98, "y": -1.01 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.3667, "x": -5.47 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MO GA": {
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, -3.03, 0.1, 0, 0.2, 0 ]
+					},
+					{ "time": 0.3, "x": -3.03 },
+					{ "time": 0.8667 }
+				]
+			}
+		},
+		"attachments": {
+			"LV1": {
+				"CHAN TRAI": {
+					"CHAN TRAI": {
+						"deform": [
+							{
+								"offset": 10,
+								"vertices": [ 0.57774, 0.94244 ]
+							},
+							{
+								"time": 0.3,
+								"offset": 6,
+								"vertices": [ 9.00769, -5.92673, 9.43216, 22.18732, 9.88437, 5.90256, -4.83772, 8.34311, 22.30991, 21.19498, 3.8119, 10.66583 ]
+							},
+							{
+								"time": 0.4667,
+								"vertices": [ 1.71898, -7.19662, 1.71898, -7.19662, 1.92845, -4.80307, 13.39555, -4.67419, 5.47744, 34.83478, 12.88676, 3.62744, 22.35373, 9.66656, 36.59619, -5.91635, 9.90463, -9.21368, -0.83822, -8.66339, 1.71898, -7.19662, 1.71898, -7.19662, 1.71898, -7.19662, 1.71898, -7.19662, 1.71898, -7.19662, 9.02771, -7.27432, 1.71898, -7.19662, -11.13194, -2.45407, 1.71898, -7.19662, 1.71898, -7.19662 ]
+							},
+							{
+								"time": 0.7667,
+								"vertices": [ -0.32474, 0.08546, -0.32474, 0.08546, -0.32474, 0.08546, 3.05315, -2.13706, -19.07681, 23.50999, -25.45984, -2.88035, -8.74944, 5.81914, 2.54631, 1.84749, 0.49125, 0.52081, -6.51025, -0.91327, -7.50803, -0.51446, -0.32474, 0.08546, -0.32474, 0.08546, -0.32474, 0.08546, -0.32474, 0.08546, -17.22622, 0.83865, -0.32474, 0.08546, -5.14383, 1.86392, -0.32474, 0.08546, -0.32474, 0.08546 ]
+							},
+							{
+								"time": 0.8667,
+								"offset": 10,
+								"vertices": [ 0.57774, 0.94244 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"Rest": {
+		"bones": {
+			"THAN": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "y": -70 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MAO GA": {
+				"translate": [
+					{
+						"curve": [ 0.1, 0, 0.2, -19.99, 0.1, 0, 0.2, -0.7 ]
+					},
+					{ "time": 0.3, "x": -19.99, "y": -0.7 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, 0.99, 0.1, 0, 0.2, 0 ]
+					},
+					{ "time": 0.3, "x": 0.99 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CANH TRAI": {
+				"rotate": [
+					{},
+					{ "time": 0.3667, "value": -1.67 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.3667, "x": 9.56 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MAT PHAI": {
+				"rotate": [
+					{},
+					{ "time": 0.3, "value": -37.56 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MAT TRAI": {
+				"rotate": [
+					{
+						"curve": [ 0.1, 0, 0.2, -75.74 ]
+					},
+					{ "time": 0.3, "value": -75.74 },
+					{ "time": 0.8667 }
+				]
+			},
+			"DUOI": {
+				"rotate": [
+					{},
+					{
+						"time": 0.3,
+						"value": -5.85,
+						"curve": [ 0.489, -5.85, 0.678, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"translate": [
+					{},
+					{
+						"time": 0.3,
+						"x": -29.98,
+						"y": -1.05,
+						"curve": [ 0.489, -29.98, 0.678, 0, 0.489, -1.05, 0.678, 0 ]
+					},
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, 5.87, 0.1, 0, 0.2, 0.54 ]
+					},
+					{ "time": 0.3, "x": 5.87, "y": 0.54 },
+					{ "time": 0.8667 }
+				]
+			},
+			"CANH PHAI": {
+				"translate": [
+					{},
+					{ "time": 0.3667, "x": -29.98, "y": -1.01 },
+					{ "time": 0.8667 }
+				],
+				"shear": [
+					{},
+					{ "time": 0.3667, "x": -5.47 },
+					{ "time": 0.8667 }
+				]
+			},
+			"MO GA": {
+				"shear": [
+					{
+						"curve": [ 0.1, 0, 0.2, -3.03, 0.1, 0, 0.2, 0 ]
+					},
+					{ "time": 0.3, "x": -3.03 },
+					{ "time": 0.8667 }
+				]
+			}
+		},
+		"attachments": {
+			"LV1": {
+				"CHAN TRAI": {
+					"CHAN TRAI": {
+						"deform": [
+							{
+								"offset": 10,
+								"vertices": [ 0.57774, 0.94244 ]
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

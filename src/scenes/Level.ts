@@ -11,61 +11,56 @@ import { MoveInSceneActionScript } from "@phaserjs/editor-scripts-simple-animati
 /* END-USER-IMPORTS */
 
 export default class Level extends Phaser.Scene {
-  constructor() {
-    super("Level");
 
-    /* START-USER-CTR-CODE */
+	constructor() {
+		super("Level");
+
+		/* START-USER-CTR-CODE */
     // Write your code here.
     /* END-USER-CTR-CODE */
-  }
+	}
 
-  editorCreate(): void {
-    // fufuSuperDino
-    const fufuSuperDino = this.add.image(640, 257, "FufuSuperDino");
+	editorCreate(): void {
 
-    // onPointerDownScript
-    const onPointerDownScript = new OnPointerDownScript(fufuSuperDino);
+		// fufuSuperDino
+		const fufuSuperDino = this.add.image(640, 257, "FufuSuperDino");
 
-    // pushAction
-    new PushActionScript(onPointerDownScript);
+		// onPointerDownScript
+		const onPointerDownScript = new OnPointerDownScript(fufuSuperDino);
 
-    // onAwakeScript_1
-    const onAwakeScript_1 = new OnAwakeScript(fufuSuperDino);
+		// pushAction
+		new PushActionScript(onPointerDownScript);
 
-    // moveInSceneActionScript_1
-    const moveInSceneActionScript_1 = new MoveInSceneActionScript(
-      onAwakeScript_1
-    );
+		// onAwakeScript_1
+		const onAwakeScript_1 = new OnAwakeScript(fufuSuperDino);
 
-    // text
-    const text = this.add.text(641, 458, "", {});
-    text.scaleX = 0.9922895290225968;
-    text.scaleY = 1.8164165237235346;
-    text.setOrigin(0.5, 0.5);
-    text.text = "Phaser By Cong";
-    text.setStyle({
-      align: "center",
-      color: "#10d845ff",
-      fontFamily: "Arial",
-      fontSize: "4em",
-    });
+		// moveInSceneActionScript_1
+		const moveInSceneActionScript_1 = new MoveInSceneActionScript(onAwakeScript_1);
 
-    // onAwakeScript
-    const onAwakeScript = new OnAwakeScript(text);
+		// text
+		const text = this.add.text(641, 458, "", {});
+		text.scaleX = 0.9922895290225968;
+		text.scaleY = 1.8164165237235346;
+		text.setOrigin(0.5, 0.5);
+		text.text = "Phaser By Cong";
+		text.setStyle({ "align": "center", "color": "#10d845ff", "fontFamily": "Arial", "fontSize": "4em" });
 
-    // moveInSceneActionScript
-    const moveInSceneActionScript = new MoveInSceneActionScript(onAwakeScript);
+		// onAwakeScript
+		const onAwakeScript = new OnAwakeScript(text);
 
-    // moveInSceneActionScript_1 (prefab fields)
-    moveInSceneActionScript_1.from = "TOP";
+		// moveInSceneActionScript
+		const moveInSceneActionScript = new MoveInSceneActionScript(onAwakeScript);
 
-    // moveInSceneActionScript (prefab fields)
-    moveInSceneActionScript.from = "BOTTOM";
+		// moveInSceneActionScript_1 (prefab fields)
+		moveInSceneActionScript_1.from = "TOP";
 
-    this.events.emit("scene-awake");
-  }
+		// moveInSceneActionScript (prefab fields)
+		moveInSceneActionScript.from = "BOTTOM";
 
-  /* START-USER-CODE */
+		this.events.emit("scene-awake");
+	}
+
+	/* START-USER-CODE */
 
   // Write your code here
 
