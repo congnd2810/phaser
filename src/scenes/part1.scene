@@ -1,24 +1,45 @@
 {
-  "id": "d6773d78-82f5-4322-816b-0c8f19809679",
-  "settings": {
-    "compilerOutputLanguage": "TYPE_SCRIPT",
-    "javaScriptInitFieldsInConstructor": false,
-    "exportClass": true,
-    "autoImport": true,
-    "createMethodName": "editorCreate",
-    "compilerInsertSpaces": false,
-    "compilerTabSize": 4,
-    "borderWidth": 1280,
-    "borderHeight": 720,
-    "borderX": 0,
-    "borderY": 0,
-    "sceneKey": "part1"
-  },
-  "sceneType": "SCENE",
-  "displayList": [],
-  "meta": {
-    "app": "Phaser Editor 2D - Scene Editor",
-    "url": "https://phasereditor2d.com",
-    "contentType": "phasereditor2d.core.scene.SceneContentType"
-  }
+    "id": "d6773d78-82f5-4322-816b-0c8f19809679",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "part1",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "0e254983-e431-4a41-abf6-cc4b605fe90d",
+            "label": "sky",
+            "texture": {
+                "key": "sky"
+            },
+            "x": 641,
+            "y": 373
+        },
+        {
+            "type": "Image",
+            "id": "dc2ea289-fc43-484c-8e75-bfe59329f5aa",
+            "label": "image_1",
+            "texture": {
+                "key": "star"
+            },
+            "x": 648,
+            "y": 372,
+            "scaleX": 5,
+            "scaleY": 5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
 }

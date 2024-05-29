@@ -16,11 +16,12 @@
             "type": "Image",
             "id": "bb2d413c-02b3-404d-b1c0-cf46ce1e7f07",
             "label": "fufuSuperDino",
+            "padding": 100,
             "texture": {
                 "key": "FufuSuperDino"
             },
-            "x": 640,
-            "y": 257,
+            "x": 1042,
+            "y": 269,
             "list": [
                 {
                     "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",

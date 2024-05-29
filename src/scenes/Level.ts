@@ -23,7 +23,8 @@ export default class Level extends Phaser.Scene {
 	editorCreate(): void {
 
 		// fufuSuperDino
-		const fufuSuperDino = this.add.image(640, 257, "FufuSuperDino");
+		const fufuSuperDino = this.add.image(1042, 269, "FufuSuperDino");
+		fufuSuperDino.preFX!.padding = 100;
 
 		// onPointerDownScript
 		const onPointerDownScript = new OnPointerDownScript(fufuSuperDino);
